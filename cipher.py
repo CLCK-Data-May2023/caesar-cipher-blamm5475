@@ -13,6 +13,6 @@ try:
             encrypted_char = char
         encrypted_text += encrypted_char
 
-    print("Encrypted text:", encrypted_text)
+    print("The encrypted sentence is:", encrypted_text)
 except Exception as e:
     print("An error occurred:", e)
